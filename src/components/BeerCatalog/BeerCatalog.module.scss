@@ -1,0 +1,34 @@
+.container {
+  max-width: 80rem;
+  margin: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 1rem;
+  gap: 1rem;
+
+  @media screen and (max-width: 60rem) {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    min-width: 0;
+    overflow: hidden;
+
+    .info {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    img {
+      max-height: 10rem;
+      object-fit: cover;
+    }
+  }
+
+}
+

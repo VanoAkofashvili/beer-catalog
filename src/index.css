@@ -1,0 +1,31 @@
+:root {
+  --primary: #868686;
+  --border: #4b4bff;
+  --radius: 1rem;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html, body, #root {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  font-size: 1.6rem;
+}
+
+@font-face {
+  font-family: Poppins;
+  src: url("assets/fonts/Poppins-Regular.ttf") format('truetype');
+  font-weight: normal;
+}
